@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dvdmachine"
+    }
+  },
+  "defaultProject": "dvdmachine",
+  "cli": {
+    "analytics": "9043653c-8b57-4ac7-86aa-92f8c92cf60c"
+  }
 }
