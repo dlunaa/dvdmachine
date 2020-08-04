@@ -1,10 +1,10 @@
 <h2> Listado Ejercicios</h2>
 <ul class="ejercicios">
-  <li *ngFor="let ejercicio of ejercicios" (click)="onSelectEjercicio(ejercicio)">
+  <li *ngFor="let ejercicio of ejercicios" (click)="onSelectEjercicio(ejercicio)"[class.selected]="ejercicio===ejercicioSelecionado">
+    
     <span class="ejercicio">{{ejercicio.id}} </span>{{ejercicio.name}}
   </li>
 </ul>
-<h2>Detalle</h2>
-<div *ngIf="ejercicioSeleccionado">
-    <div><span>id: </span>{{ejercicioSeleccionado.id}}</div>
-</div>
+
+                 
+
