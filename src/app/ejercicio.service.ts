@@ -11,7 +11,7 @@ export class EjercicioService {
   constructor() { }
 
   getEjercicios(): Observable<Ejercicio[]> {
-    return of (EJERCICIOS);
+    return of(EJERCICIOS);
   }
 
   getEjercicio(id:number): Observable<Ejercicio> {
