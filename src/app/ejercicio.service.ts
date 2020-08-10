@@ -15,6 +15,7 @@ export class EjercicioService {
   }
 
   getEjercicio(id:number): Observable<Ejercicio> {
+    console.log("id solicitado: "+id);
     return of(EJERCICIOS.find(ejercicio=>ejercicio.id===id));
   }
 }
