@@ -7,5 +7,13 @@
   </li>
 </ul>
 
+<mat-list>
+  <div mat-subheader>Listado de ejercicios</div>
+  <mat-list-item *ngFor="let ejercicio of ejercicios">
+    <mat-icon mat-list-icon>folder</mat-icon>
+    <div mat-line>{{ejercicio.name}}</div>
+    <div mat-line> {{ejercicio.id}} </div>
+  </mat-list-item>
+</mat-list>
 
 
